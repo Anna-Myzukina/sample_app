@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= full_title(yield(:title)) %></title>
+    <title>New app</title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all',
                                               'data-turbolinks-track': 'reload' %>
@@ -12,7 +12,7 @@
     <%= render 'layouts/header' %>
     <div class="container">
       <%= yield %>
-      <%= render 'layouts/footer' %>
+    <%= render 'layouts/footer' %>
     </div>
   </body>
 </html>
