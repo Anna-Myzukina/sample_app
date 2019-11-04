@@ -6,26 +6,15 @@
     <%= stylesheet_link_tag    'application', media: 'all',
                                               'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cdndflare.com/ajax/libs/html5shiv/r39/html5.min.js">
-    </script>
-    <![endif]-->
+    <%= render 'layouts/shim' %>
   </head>
 
   <body>
-  <header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <%= link_to "sample_app", '#', id: "logo"%>
-    <nav>
-    <ul class="nav navbar-nav pull-right">
-      <li><%= link_to "Home",    '#' %></li>
-      <li><%= link_to "About",   '#' %></li>
-      <li><%= link_to "Contact", '#' %></li>
-    </nav>
-  </div>
-  </header>
+  
+  <%= render 'layouts/header' %>
   <div class="container">
     <%= yield %>
+    <%= render 'layouts/footer' %>
   </div>
     
   </body>
