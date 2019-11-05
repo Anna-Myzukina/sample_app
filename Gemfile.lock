@@ -42,10 +42,7 @@ GEM
     arel (8.0.0)
     autoprefixer-rails (9.7.1)
       execjs
-<<<<<<< HEAD
-=======
     bcrypt (3.1.12)
->>>>>>> creating-users
     bindex (0.8.1)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
@@ -206,10 +203,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-=======
   bcrypt (= 3.1.12)
->>>>>>> creating-users
   bootstrap-sass (= 3.3.7)
   byebug (= 9.0.6)
   coffee-rails (= 4.2.2)
